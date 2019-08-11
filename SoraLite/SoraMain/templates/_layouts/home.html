@@ -1,0 +1,63 @@
+{% load static %}
+{% if page.background %}
+    <header class="masthead" style="background-image: url('{% static page.background %}')">
+    {% else %}
+    <header class="masthead">
+        {% endif %}
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="page-heading">
+                        <h1>{{ site.title }}</h1>
+                        {% if site.description %}
+                        <span class="subheading">{{ site.description }}</span>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+
+                <!-- Home Post List -->
+
+                {% if PostList %}
+                <ul>
+                    {% for i in PostList %}
+                    <article class="post-preview">
+                        <a href="/posts/{{ i.id }}">
+                            <h2 class="post-title">{{ i.title | truncatewords:10 }}</h2>
+                            <h3 class="post-subtitle">{{ i.body | truncatewords:10 }}</h3>
+                        </a>
+                        <p class="post-meta">Posted by {{i.author}} on {{i.created_time}}, modified on {{i.modified_time}}
+                        </p>
+                    </article>
+
+                    <hr>
+                    {% endfor %}
+                </ul>
+                {% else %}
+
+                <article class="post-preview">
+                    <a href="">
+                        <h2 class="post-title">No Articles are available.</h2>
+                    </a>
+                    <p class="post-meta">Posted by admin
+                    </p>
+                </article>
+                {% endif %}
+
+
+                <!-- Pager -->
+                <div class="clearfix">
+                    <a class="btn btn-primary float-right" href="{{"/posts"}}">View All Posts &rarr;</a>
+                </div>
+
+            </div>
+        </div>
+    </div>

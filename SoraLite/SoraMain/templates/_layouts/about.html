@@ -1,0 +1,54 @@
+<!-- Page Header -->
+{% load static %}
+{% load blog_tags %}
+{% if page.background %}
+    <header class="masthead" style="background-image: url('{% static page.background %}')">
+    {% else %}
+    <header class="masthead">
+        {% endif %}
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="page-heading">
+                        <h1>{{ page.title }}</h1>
+                        {% if page.description %}
+                        <span class="subheading">{{ page.description }}</span>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+     <script type="text/javascript">
+            //得到时间并写入div
+            function getDate(){
+                //获取当前时间
+                var date = new Date();
+                //格式化为本地时间格式
+                var date1 = date.toLocaleString();
+                //获取div
+                var div1 = document.getElementById("times");
+                //将时间写入div
+                div1.innerHTML = date1;
+            }
+            //使用定时器每秒向div写入当前时间
+            setInterval("getDate()",0);
+            setInterval("getDate()",1000);
+      </script>
+</header>
+<body>
+<div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto" style="text-align:center">
+        <p>Hello, world!</p>
+        <p>这里已经有{% total_posts %}篇文章</p>
+        <p>自我发布第一篇文章已经过去了{% time_count %} 天</p>
+          <p>多么漫长</p>
+          <nobr>现在是</nobr>
+          <nobr><label id = "times"></label></nobr>
+          <p>时间还在一秒一秒地流逝，永无停止</p>
+      </div>
+    </div>
+</div>
+</body>

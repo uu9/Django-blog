@@ -1,0 +1,64 @@
+{% load static %}
+{% if pageINFO.background %}
+<header class="masthead" style="background-image: url('{% static pageINFO.background %}')">
+  {% else %}
+  <header class="masthead">
+    {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>{{ pageINFO.title }}</h1>
+            {% if pageINFO.subtitle %}
+            <h2 class="subheading">{{ pageINFO.subtitle }}</h2>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+    <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+                {% if PostList %}
+                <ul>
+                    {% for i in PostList %}
+                    <article class="post-preview">
+                        <a href="{{ i.id }}">
+                            <h2 class="post-title">{{ i.title | truncatewords:30}}</h2>
+                            <h3 class="post-subtitle">{{ i.body | truncatewords:10 }}</h3>
+                        </a>
+                        <p class="post-meta">Posted by {{i.author}} on {{i.created_time}}, modified on {{i.modified_time}}
+                        </p>
+                    </article>
+                    {% endfor %}
+                </ul>
+                {% else %}
+
+                <article class="post-preview">
+                    <a href="">
+                        <h2 class="post-title">No Articles are available.</h2>
+                    </a>
+                    <p class="post-meta">Posted by admin
+                    </p>
+                </article>
+                {% endif %}
+                <hr>
+
+        <div class="clearfix">
+          {% if page.has_previous %}
+          <a class="btn btn-primary float-left" href="?page={{ page.previous_page_number }}" data-toggle="tooltip" data-placement="top">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          {% endif %}
+
+          {% if page.has_next %}
+          <a class="btn btn-primary float-right" href="?page={{ page.next_page_number }}" data-toggle="tooltip" data-placement="top">Next<span class="d-none d-md-inline">
+              Post</span> &rarr;</a>
+          {% endif %}
+        </div>
+
+      </div>
+    </div>
+  </div>

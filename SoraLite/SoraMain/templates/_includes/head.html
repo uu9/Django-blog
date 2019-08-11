@@ -1,0 +1,21 @@
+{% load static%}
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    {% if page.title %}
+    {{ page.title | escape }} - {{ site.title | escape }}
+    {% else %}
+    {{ site.title | escape }}
+    {% endif %}
+  </title>
+  {# head part #}
+  <link rel="stylesheet" href="{% static "assets/vendor/bootstrap/css/bootstrap.min.css" %}">
+  <link rel="stylesheet" href="{% static "assets/vendor/fontawesome-free/css/all.min.css" %}">
+  <link rel="stylesheet" href="{% static "assets/main.css" %}">
+  <link href="{% static "fonts/font1.css" rel="stylesheet" type="text/css" %}">
+  <link href="{% static "fonts/font2.css" rel="stylesheet" type="text/css" %}">
+
+</head>
