@@ -1,0 +1,86 @@
+              <h1 class="bd-title" id="content">介绍</h1>
+              <p class="bd-lead">白梗—各种各样的梗</p>
+              <h2>调用地址</h2>
+              <figure class="highlight">
+                  <pre>
+                      <span>/api/baigeng</span>
+              </pre>
+              </figure>
+              <h2>参数</h2>
+              <figure class="highlight">
+                  <pre>
+                      GET
+                      <span>不指定参数系统将随机为你返回一条数据</span>
+                      <span>name <em>{非必须}{梗名}</em></span>
+                      <span>content <em>{非必须}{相关内容}</em></span>
+                      <span>rp <em>{非必须}{相关人物}</em></span>
+                      <span>source <em>{非必须}{来源}</em></span>
+
+                      POST
+                      <span><em>在下方添加内容以提交数据</em></span>
+              </pre>
+              </figure>
+    <h1>提交梗—在你的帮助下白梗更为完善有趣</h1>
+<form id="sub">
+    {% csrf_token %}
+  <div class="form-group">
+    <label for="name">梗名</label>
+    <input type="text" class="form-control" id="name" placeholder="请用简短的叙述" name="name">
+  </div>
+  <div class="form-group">
+    <label for="content">内容(一句话一行)</label>
+    <textarea class="form-control" id="cont" rows="3" name="content"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="creator">作者称呼</label>
+    <input type="text" class="form-control" id="creator" placeholder="(๑ŐдŐ)b" name="creator">
+  </div>
+      <div class="form-group">
+    <label for="contact_creator">作者联系方式(联系方式将不会被公开)</label>
+    <input type="text" class="form-control" id="contact_creator" placeholder="留下你的足迹" name="contact_creator">
+  </div>
+      <div class="form-group">
+    <label for="related_person">相关人物(一个一行)</label>
+    <textarea class="form-control" id="related_person" rows="3" name="related_person"></textarea>
+  </div>
+    {% comment %}
+    <div class="form-group">
+    <label for="type">分类</label>
+    <input type="text" class="form-control" id="type" placeholder="(☄⊙ω⊙)☄" name="type">
+  </div>
+    {% endcomment %}
+    <div class="form-group">
+    <label for="source">来源</label>
+    <input type="text" class="form-control" id="source" placeholder="最初来源于？" name="source">
+  </div>
+    <div class="form-group">
+      <label for="rank">作者评分(你觉得这个梗有多经典呢？分越高越经典)</label>
+      <select id="rank" class="form-control" name="rank">
+        <option selected value=null>不评价</option>
+        <option value="1">1星</option>
+          <option value="2">2星</option>
+          <option value="3">3星</option>
+          <option value="4">4星</option>
+          <option value="5">5星</option>
+      </select>
+    </div>
+</form>
+{% load static %}
+<script src="{% static "jQuery/jquery-3.4.1.min.js" %}"></script>
+ <script>
+$(document).ready(function(){
+      $("#sb").click(function(){
+        $.post("/api/baigeng",$("#sub").serialize(),function(data,status){
+            if(status=="success"){
+            alert("成功,感谢你的提交!");}
+            else{
+            alert("提交错误,请联系管理员")
+            }
+        });
+      });
+    });
+  </script>
+    <button class="btn btn-primary" id="sb">提交</button>
+              <!--sb=submit-->
+<br>
+<br>

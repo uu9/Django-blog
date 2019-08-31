@@ -3,9 +3,8 @@ from .models import Post
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 import markdown
 from datetime import datetime
-
-
 from django.http import HttpResponse
+
 
 class site:
     email = "3395538560@qq.com"
@@ -17,6 +16,7 @@ class site:
     author = "Soranosro"
     title = "Soranosro"
     description = "In this altitude, we are at least not alone."
+
 
 def index(request):
     PostList = Post.objects.order_by('-id')
@@ -30,6 +30,7 @@ def index(request):
     }
     return render(request, 'home.html', context)
 
+
 def about(request):
     class page:
         background = "img/bg-about.jpg"
@@ -39,6 +40,7 @@ def about(request):
         'page': page,
     }
     return render(request, 'about.html', context)
+
 
 def posts(request):
     PostList = Post.objects.order_by('-id')
@@ -78,6 +80,7 @@ def post_detail(request, year, month, day, id):
         description = "Post by " + str(post.author) + " on " + str(post.created_time)
     return render(request, 'page.html', {'content': post.body, 'page': page, 'site': site})
 
+
 def post_detail_test(request, id):
     post = get_object_or_404(Post, id=id)
     post.body = markdown.markdown(post.body, extensions=[
@@ -85,6 +88,7 @@ def post_detail_test(request, id):
                           'markdown.extensions.codehilite',
                           'markdown.extensions.toc',
                       ])
+
     class page:
         background = "img/bg-post.jpg"
         title = post.title

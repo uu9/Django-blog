@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'l+tngb@wfned_-ff!qsbio*m83=m_ul8g!9am!y-d7v3ihzb74'
+SECRET_KEY = '8(wqs0qylell=we@s7z)qct75(eibija17qsioqfb2+fa^+zcd'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -40,10 +40,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'django.contrib.sitemaps',
-    'SoraMain.apps.SoramainConfig',
+    'SoraMain',
+	'SoraApi',
+	'django_hosts',
 ]
 
 MIDDLEWARE = [
+	'django_hosts.middleware.HostsRequestMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -51,6 +54,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+	'django_hosts.middleware.HostsResponseMiddleware',
 ]
 
 ROOT_URLCONF = 'SoraLite.urls'
@@ -88,7 +92,7 @@ WSGI_APPLICATION = 'SoraLite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'SoraDB',
+        'NAME': 'testDB',
         'USER': 'root',
         'PASSWORD': 'testpassword',
         'HOST': '127.0.0.1',
@@ -133,3 +137,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, "collect_static")
+
+ROOT_HOSTCONF = 'SoraLite.hosts'
+
+DEFAULT_HOST = 'main'

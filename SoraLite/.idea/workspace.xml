@@ -10,35 +10,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoraMain/templates/_layouts/posts.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SoraApi/API/baigeng.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="29" column="87" selection-start-line="29" selection-start-column="87" selection-end-line="29" selection-end-column="87" />
-              <folding>
-                <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoraMain/templates/_layouts/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
-              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-              <folding>
-                <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoraMain/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1631">
-              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="431">
+              <caret line="54" column="39" lean-forward="true" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -46,74 +22,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SoraMain/admin.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SoraApi/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+              <caret line="23" column="67" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoraMain/templates/_includes/scripts.html">
+        <entry file="file://$PROJECT_DIR$/SoraApi/templates/ApiDetail/baigeng.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoraMain/templates/_includes/navbar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoraMain/templates/_includes/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoraMain/templates/_includes/head.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoraMain/templates/_layouts/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
-              <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-              <folding>
-                <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoraMain/templates/_layouts/page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
-              <folding>
-                <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="350">
+              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -123,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -132,7 +54,6 @@
     <findStrings>
       <find>src</find>
       <find>masthead</find>
-      <find>test</find>
       <find>Contact</find>
       <find>https://fonts.gstatic.com/s/lora/v14/</find>
       <find>fonts/files1</find>
@@ -144,6 +65,11 @@
       <find>page</find>
       <find>'</find>
       <find>ajax</find>
+      <find>js</find>
+      <find>sw.js</find>
+      <find>docs.min.css.map</find>
+      <find>dict</find>
+      <find>test</find>
     </findStrings>
     <replaceStrings>
       <replace>fonts/files1</replace>
@@ -156,25 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.py" />
-        <option value="$PROJECT_DIR$/SoraLite/urls.py" />
-        <option value="$PROJECT_DIR$/SoraMain/templates/index.html" />
-        <option value="$PROJECT_DIR$/SoraMain/templates/default.html" />
-        <option value="$PROJECT_DIR$/SoraMain/templates/head.html" />
-        <option value="$PROJECT_DIR$/SoraMain/templates/navbar.html" />
-        <option value="$PROJECT_DIR$/SoraMain/templates/scripts.html" />
-        <option value="$PROJECT_DIR$/SoraMain/templates/footer.html" />
-        <option value="$PROJECT_DIR$/SoraMain/templates/_includes/read_time.html" />
-        <option value="$PROJECT_DIR$/SoraMain/templates/_layouts/TODO" />
-        <option value="$PROJECT_DIR$/SoraMain/templates/_includes/footer.html" />
-        <option value="$PROJECT_DIR$/SoraMain/__init__.py" />
-        <option value="$PROJECT_DIR$/SoraMain/templates/_layouts/default.html" />
-        <option value="$PROJECT_DIR$/SoraMain/templates/contact.html" />
-        <option value="$PROJECT_DIR$/SoraMain/static/fonts/font1.css" />
-        <option value="$PROJECT_DIR$/SoraMain/static/fonts/font2.css" />
-        <option value="$PROJECT_DIR$/SoraMain/templates/_includes/navbar.html" />
-        <option value="$PROJECT_DIR$/SoraMain/templates/_includes/head.html" />
-        <option value="$PROJECT_DIR$/SoraMain/templates/_includes/scripts.html" />
         <option value="$PROJECT_DIR$/SoraMain/templates/about.html" />
         <option value="$PROJECT_DIR$/SoraMain/templates/home.html" />
         <option value="$PROJECT_DIR$/SoraMain/templates/page.html" />
@@ -182,7 +89,6 @@
         <option value="$PROJECT_DIR$/SoraMain/admin.py" />
         <option value="$PROJECT_DIR$/SoraMain/static/assets/vendor/startbootstrap-clean-blog/js/jqBootstrapValidation.js" />
         <option value="$PROJECT_DIR$/SoraMain/templatetag/blog_tags.py" />
-        <option value="$PROJECT_DIR$/SoraLite/settings.py" />
         <option value="$PROJECT_DIR$/SoraMain/sitemaps.py" />
         <option value="$PROJECT_DIR$/SoraMain/templatetags/blog_tags.py" />
         <option value="$PROJECT_DIR$/SoraMain/templates/_layouts/about.html" />
@@ -190,8 +96,43 @@
         <option value="$PROJECT_DIR$/SoraMain/templates/_layouts/page.html" />
         <option value="$PROJECT_DIR$/SoraMain/templates/_layouts/posts.html" />
         <option value="$PROJECT_DIR$/SoraMain/templates/_layouts/home.html" />
-        <option value="$PROJECT_DIR$/SoraMain/views.py" />
         <option value="$PROJECT_DIR$/SoraMain/models.py" />
+        <option value="$PROJECT_DIR$/SoraApi/static/bootstrap-docs/docs.min.css" />
+        <option value="$PROJECT_DIR$/SoraApi/templates/index2.html" />
+        <option value="$PROJECT_DIR$/SoraApi/templates/bakup.html" />
+        <option value="$PROJECT_DIR$/SoraApi/templates/layout/head.html" />
+        <option value="$PROJECT_DIR$/SoraApi/templates/layout/sidebar.html" />
+        <option value="$PROJECT_DIR$/SoraApi/templates/layout/body.html" />
+        <option value="$PROJECT_DIR$/SoraApi/templates/layouts/components/Introductions.html" />
+        <option value="$PROJECT_DIR$/SoraApi/templates/ApiDetail.html" />
+        <option value="$PROJECT_DIR$/SoraApi/templates/index.html" />
+        <option value="$PROJECT_DIR$/SoraApi/templates/layouts/components/Intros.html" />
+        <option value="$PROJECT_DIR$/SoraApi/templates/ApiDetail/test.html" />
+        <option value="$PROJECT_DIR$/SoraApi/urls.py" />
+        <option value="$PROJECT_DIR$/SoraApi/API/BingDaily.py" />
+        <option value="$PROJECT_DIR$/SoraApi/API/Weather.py" />
+        <option value="$PROJECT_DIR$/SoraApi/API/SearchRank.py" />
+        <option value="$PROJECT_DIR$/SoraMain/views.py" />
+        <option value="$PROJECT_DIR$/SoraApi/templates/layouts/components/SideBarList.html" />
+        <option value="$PROJECT_DIR$/SoraApi/templates/layouts/body.html" />
+        <option value="$PROJECT_DIR$/SoraApi/templates/ApiDetail/bingdaily.html" />
+        <option value="$PROJECT_DIR$/SoraApi/API/bingdaily.py" />
+        <option value="$PROJECT_DIR$/SoraApi/API/searchrank.py" />
+        <option value="$PROJECT_DIR$/SoraApi/templates/ApiDetail/searchrank.html" />
+        <option value="$PROJECT_DIR$/SoraApi/templates/ApiDetail/weather.html" />
+        <option value="$PROJECT_DIR$/SoraApi/API/weather.py" />
+        <option value="$PROJECT_DIR$/SoraApi/API/yiyan.py" />
+        <option value="$PROJECT_DIR$/SoraApi/views.py" />
+        <option value="$PROJECT_DIR$/SoraApi/templates/ApiDetail/yiyan.html" />
+        <option value="$PROJECT_DIR$/SoraApi/templates/layouts/head.html" />
+        <option value="$PROJECT_DIR$/SoraApi/static/bootstrap-docs/docs.min.js" />
+        <option value="$PROJECT_DIR$/SoraApi/API/yan.py" />
+        <option value="$PROJECT_DIR$/SoraApi/models.py" />
+        <option value="$PROJECT_DIR$/SoraApi/API/__init__.py" />
+        <option value="$PROJECT_DIR$/SoraLite/settings.py" />
+        <option value="$PROJECT_DIR$/SoraApi/templates/layouts/scripts.html" />
+        <option value="$PROJECT_DIR$/SoraApi/templates/ApiDetail/baigeng.html" />
+        <option value="$PROJECT_DIR$/SoraApi/API/baigeng.py" />
       </list>
     </option>
   </component>
@@ -206,7 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,64 +157,78 @@
             <path>
               <item name="SoraLite" type="b2602c69:ProjectViewProjectNode" />
               <item name="SoraLite" type="462c0819:PsiDirectoryNode" />
-              <item name="SoraLite" type="462c0819:PsiDirectoryNode" />
+              <item name="SoraApi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SoraLite" type="b2602c69:ProjectViewProjectNode" />
               <item name="SoraLite" type="462c0819:PsiDirectoryNode" />
-              <item name="SoraMain" type="462c0819:PsiDirectoryNode" />
+              <item name="SoraApi" type="462c0819:PsiDirectoryNode" />
+              <item name="API" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SoraLite" type="b2602c69:ProjectViewProjectNode" />
               <item name="SoraLite" type="462c0819:PsiDirectoryNode" />
-              <item name="SoraMain" type="462c0819:PsiDirectoryNode" />
+              <item name="SoraApi" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SoraLite" type="b2602c69:ProjectViewProjectNode" />
               <item name="SoraLite" type="462c0819:PsiDirectoryNode" />
-              <item name="SoraMain" type="462c0819:PsiDirectoryNode" />
+              <item name="SoraApi" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
+              <item name="ApiDetail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoraLite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoraLite" type="462c0819:PsiDirectoryNode" />
+              <item name="SoraApi" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoraLite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoraLite" type="462c0819:PsiDirectoryNode" />
+              <item name="SoraApi" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoraLite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoraLite" type="462c0819:PsiDirectoryNode" />
+              <item name="SoraLite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SoraLite" type="b2602c69:ProjectViewProjectNode" />
               <item name="SoraLite" type="462c0819:PsiDirectoryNode" />
               <item name="SoraMain" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoraLite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoraLite" type="462c0819:PsiDirectoryNode" />
-              <item name="SoraMain" type="462c0819:PsiDirectoryNode" />
-              <item name="templatetags" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SoraMain/static/fonts/files2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SoraApi/templates/ApiDetail" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Z\Desktop\web\SoraLite\SoraMain\static\fonts\files2" />
-      <recent name="C:\Users\Z\Desktop\web\SoraLite\SoraMain\static\fonts" />
-      <recent name="C:\Users\Z\Desktop\web\SoraLite\SoraMain\static\fonts\files1" />
-      <recent name="C:\Users\Z\Desktop\web\SoraLite\SoraMain\templates\_layouts" />
-      <recent name="C:\Users\Z\Desktop\web\SoraLite\SoraMain\templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Z\Desktop\web\SoraLite\SoraMain\static\fonts\files2" />
       <recent name="C:\Users\Z\Desktop\web\SoraLite\SoraMain\static\fonts\files1" />
       <recent name="C:\Users\Z\Desktop\web\SoraLite\SoraMain\static\fonts\a" />
       <recent name="C:\Users\Z\Desktop\web\SoraLite\SoraMain\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Z\Desktop\web\SoraLite\SoraApi\templates\ApiDetail" />
+      <recent name="C:\Users\Z\Desktop\web\SoraLite\SoraApi\static\bootstrap-docs" />
+      <recent name="C:\Users\Z\Desktop\web\SoraLite\SoraApi\static\Popper.js" />
+      <recent name="C:\Users\Z\Desktop\web\SoraLite\SoraApi\API" />
+      <recent name="C:\Users\Z\Desktop\web\SoraLite\SoraApi\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -353,8 +307,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.7265522" visible="true" weight="0.2135785" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.2734478" side_tool="true" weight="0.2135785" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.7245707" visible="true" weight="0.2135785" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.27542934" side_tool="true" weight="0.2135785" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -362,250 +316,53 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SoraMain/templates/head.html" />
-    <entry file="file://$PROJECT_DIR$/SoraMain/templates/scripts.html" />
-    <entry file="file://$PROJECT_DIR$/SoraMain/templates/default.html" />
-    <entry file="file://$PROJECT_DIR$/SoraMain/templates/footer.html" />
-    <entry file="file://$PROJECT_DIR$/SoraMain/templates/_includes/google-analytics.html" />
-    <entry file="file://$PROJECT_DIR$/SoraMain/templates/_includes/read_time.html" />
-    <entry file="file://$PROJECT_DIR$/../../car/.idea/car.iml" />
-    <entry file="file://$PROJECT_DIR$/SoraMain/templates/index.html" />
-    <entry file="file://$PROJECT_DIR$/.idea/SoraLite.iml">
+    <entry file="file://$PROJECT_DIR$/SoraApi/templates/layouts/sidebar.html" />
+    <entry file="file://$PROJECT_DIR$/SoraApi/templates/bakup.html" />
+    <entry file="file://$PROJECT_DIR$/SoraMain/templates/_includes/scripts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/templates/_layouts/post.html" />
-    <entry file="file://$PROJECT_DIR$/SoraMain/templates/_layouts/default.html" />
-    <entry file="file://$PROJECT_DIR$/SoraMain/static/assets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/static/assets/vendor/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/templates/contact.html" />
-    <entry file="file://$PROJECT_DIR$/SoraMain/static/fonts/font1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3925">
-          <caret line="157" column="57" selection-start-line="157" selection-start-column="57" selection-end-line="157" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/static/fonts/font2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="333" column="103" selection-start-line="333" selection-start-column="69" selection-end-line="333" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/templates/_layouts/TODO" />
-    <entry file="file://$USER_HOME$/miniconda3/envs/SoraLite/Lib/site-packages/django/core/servers/basehttp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="193" selection-start-line="193" selection-end-line="193" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/miniconda3/envs/SoraLite/Lib/wsgiref/handlers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="331" selection-start-line="331" selection-end-line="331" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraLite/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/static/assets/vendor/jquery/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="73821" selection-start-line="1" selection-start-column="73817" selection-end-line="1" selection-end-column="73821" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/static/assets/vendor/jquery/jquery.min.map">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/static/assets/vendor/jquery/jquery.slim.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/static/assets/vendor/jquery/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/static/assets/scripts.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/static/assets/vendor/bootstrap/js/bootstrap.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/static/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/static/assets/vendor/startbootstrap-clean-blog/js/jqBootstrapValidation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1899">
-          <caret line="700" column="8" lean-forward="true" selection-start-line="700" selection-start-column="8" selection-end-line="700" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/templatetags/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraLite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#0#307#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/sitemaps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/templates/ApiDetail.html" />
     <entry file="file://$PROJECT_DIR$/SoraMain/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="100">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/templates/about.html">
+    <entry file="file://$USER_HOME$/miniconda3/envs/SoraLite/Lib/site-packages/django/http/response.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/templatetags/blog_tags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="189">
+          <caret line="549" column="45" selection-start-line="549" selection-start-column="41" selection-end-line="549" selection-end-column="45" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/templates/posts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SoraMain/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        <state relative-caret-position="205">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/templates/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/SoraLite/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/SoraLite/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/SoraMain/templates/_layouts/posts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="87" selection-start-line="29" selection-start-column="87" selection-end-line="29" selection-end-column="87" />
-          <folding>
-            <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/templates/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/templates/_includes/scripts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/templates/_includes/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/templates/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/templates/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/templates/_layouts/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+        <state relative-caret-position="480">
+          <caret line="29" column="79" lean-forward="true" selection-start-line="29" selection-start-column="79" selection-end-line="29" selection-end-column="79" />
           <folding>
             <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
           </folding>
@@ -622,22 +379,295 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/models.py">
+    <entry file="file://$PROJECT_DIR$/SoraMain/templates/_layouts/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1631">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="25">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/templates/ApiDetail/test.html" />
+    <entry file="file://$PROJECT_DIR$/SoraMain/templates/_layouts/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/templates/layouts/components/SideBarList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/templates/layouts/components/Intros.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="66" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/SoraLite/Lib/wsgiref/handlers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/static/jQuery/jquery-3.4.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/static/jQuery/jquery-3.4.1.slim.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/static/Popper.js/popper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/static/bootstrap-docs/docs.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="379" selection-start-line="6" selection-start-column="379" selection-end-line="6" selection-end-column="379" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/static/bootstrap-docs/docs.min.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/static/Popper.js/popper.min.js.map">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/static/bootstrap-docs/docs.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SoraMain/admin.py">
+    <entry file="file://$PROJECT_DIR$/SoraApi/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/API/weather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/API/searchrank.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraMain/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraMain/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/API/yiyan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/API/bingdaily.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/SoraLite.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/API/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/templates/layouts/body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#main#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/templates/layouts/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraLite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#307#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/templates/layouts/scripts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/templates/ApiDetail/yiyan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/templates/ApiDetail/weather.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/templates/ApiDetail/searchrank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/templates/ApiDetail/bingdaily.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/SoraLite/Lib/site-packages/django/db/models/sql/compiler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="1277" selection-start-line="1277" selection-end-line="1277" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <caret line="23" column="67" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/templates/ApiDetail/baigeng.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoraApi/API/baigeng.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="54" column="39" lean-forward="true" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
